@@ -1,0 +1,64 @@
+/*dark grey background, grey lettering*/
+*, iframe *{
+	
+	background-color: #262626!important;
+	background:#262626!important;
+	color: #dedede!important;
+
+}
+
+/*light grey background
+
+, #TicketingFAQs_ecHeading, #AssigneesandNotifications_ecHeading, 
+#ContactInformation_ecHeading, #Attachments_ecHeading, #CILinks_ecHeading, #TimeTracking_ecHeading, 
+#History_ecHeading, #IncidentInformation_ecHeading, #IncidentNotes_ecHeading
+
+*/
+.listItem *, [class*="dialogTitle"], [class*="dialogTitle"] *{
+	
+	background-color: #393939!important;
+	background: #393939!important;
+	color: #cccccc!important;
+	
+}
+
+/*black accent 1*/
+.x-grid3-row *{
+	background-color: #212121!important;
+	background: #212121!important;
+
+}
+
+/*black accent 1*/
+.x-grid3-row-alt *{
+	
+	background-color: #191919!important;
+	background: #191919!important;
+
+}
+
+/*removal of top image elements*/
+div#toprightnav img, div#logo img{
+	display: none!important;
+}
+
+/*orange lettering*/
+a, .listitem a, div a{
+	
+	color: #cb4b16!important;
+	
+}
+
+/*blue lettering*/
+td a {
+	
+	color: #268bd2!important;
+	
+}
+
+/*red lettering*/
+ font, .mandatory , .mandatory *{
+	
+	color: #dc322f!important;
+	
+}

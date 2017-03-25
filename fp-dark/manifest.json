@@ -1,0 +1,19 @@
+{
+
+  "manifest_version": 2,
+  "name": "fp-dark",
+  "version": "1.0",
+
+  "description": "Adds a dark theme to Footprints",
+  
+  "web_accessible_resources": [
+    "fonts/*"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["https://solutions.projectleadership.net/*", "https://solutions.projectleadership.net/tmp"],
+	  "css":["fp-dark.css"]
+    }]
+
+}
